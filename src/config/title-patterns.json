@@ -1,0 +1,116 @@
+{
+  "description": "Title patterns that indicate a character when followed by a name",
+  "patterns": [
+    {
+      "pattern": "Professor",
+      "type": "honorific",
+      "confidence": 0.95
+    },
+    {
+      "pattern": "Mr",
+      "type": "honorific",
+      "confidence": 0.95
+    },
+    {
+      "pattern": "Mrs",
+      "type": "honorific",
+      "confidence": 0.95
+    },
+    {
+      "pattern": "Ms",
+      "type": "honorific",
+      "confidence": 0.95
+    },
+    {
+      "pattern": "Miss",
+      "type": "honorific",
+      "confidence": 0.90
+    },
+    {
+      "pattern": "Madam",
+      "type": "honorific",
+      "confidence": 0.95
+    },
+    {
+      "pattern": "Madame",
+      "type": "honorific",
+      "confidence": 0.95
+    },
+    {
+      "pattern": "Sir",
+      "type": "honorific",
+      "confidence": 0.90
+    },
+    {
+      "pattern": "Lord",
+      "type": "noble",
+      "confidence": 0.95
+    },
+    {
+      "pattern": "Lady",
+      "type": "noble",
+      "confidence": 0.95
+    },
+    {
+      "pattern": "King",
+      "type": "royal",
+      "confidence": 0.90
+    },
+    {
+      "pattern": "Queen",
+      "type": "royal",
+      "confidence": 0.90
+    },
+    {
+      "pattern": "Prince",
+      "type": "royal",
+      "confidence": 0.90
+    },
+    {
+      "pattern": "Princess",
+      "type": "royal",
+      "confidence": 0.90
+    },
+    {
+      "pattern": "Uncle",
+      "type": "familial",
+      "confidence": 0.95
+    },
+    {
+      "pattern": "Aunt",
+      "type": "familial",
+      "confidence": 0.95
+    },
+    {
+      "pattern": "Cousin",
+      "type": "familial",
+      "confidence": 0.85
+    },
+    {
+      "pattern": "Dr",
+      "type": "professional",
+      "confidence": 0.95
+    },
+    {
+      "pattern": "Doctor",
+      "type": "professional",
+      "confidence": 0.90
+    },
+    {
+      "pattern": "Captain",
+      "type": "military",
+      "confidence": 0.90
+    },
+    {
+      "pattern": "General",
+      "type": "military",
+      "confidence": 0.85
+    },
+    {
+      "pattern": "Minister",
+      "type": "political",
+      "confidence": 0.85
+    }
+  ],
+  "possessiveIndicators": ["'s", "'"]
+}

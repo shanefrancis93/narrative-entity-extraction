@@ -1,0 +1,40 @@
+{
+  "name": "narrative-entity-extraction",
+  "version": "1.0.0",
+  "description": "Extract characters, locations, and relationships from fiction text using regex heuristics + optional LLM co-reference resolution",
+  "main": "src/discover.js",
+  "bin": {
+    "entity-discover": "src/discover.js",
+    "entity-snippets": "src/extract-snippets.js",
+    "entity-query": "src/query.js"
+  },
+  "scripts": {
+    "discover": "node src/discover.js",
+    "snippets": "node src/extract-snippets.js",
+    "query": "node src/query.js",
+    "example": "node examples/basic-extraction.js"
+  },
+  "keywords": [
+    "nlp",
+    "entity-extraction",
+    "named-entity-recognition",
+    "fiction",
+    "narrative",
+    "characters",
+    "co-reference",
+    "text-analysis",
+    "llm"
+  ],
+  "author": "Shane Francis",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.71.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shanefrancis93/narrative-entity-extraction.git"
+  }
+}
